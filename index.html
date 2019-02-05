@@ -33,9 +33,9 @@
                         <img src="pics/logo-2-min.jpeg" alt="Pandha logo" class="logo">
                         <img src="pics/logo-2-min.jpeg" alt="Pandha logo" class="logo-black">
                         <ul class="main-nav js--main-nav">
-                            <li><a href="#buy">Buy a ticket</a></li>
+                            <li><a href="/pandha//Booking-System/">Buy a ticket</a></li>
                             <li><a href="#works">How it works</a></li>
-                            <li><a href="#">Create an Account</a></li>
+                            <li><a href="/pandha//Booking-System/registration.php">Create an Account</a></li>
                             <li><a href="#partners">Our partners</a></li>
                             <li><a href="#about">About</a></li>
                         </ul>
@@ -44,7 +44,7 @@
                 </nav>
                 <div class="hero-text-box">
                     <h1>The wait is over!<br>Hello speedy services.</h1>
-                    <a class="btn btn-full js--scroll-to-plans" href="#">Buy a ticket</a>
+                    <a class="btn btn-full js--scroll-to-plans" href="/pandha//Booking-System/">Buy a ticket</a>
                     <a class="btn btn-ghost js--scroll-to-start" href="#">Tell me more</a>
                 </div>
                 
@@ -96,15 +96,19 @@
                 <div class="col span-1-of-2 steps-box">
                     <div class="works-step clearfix">
                         <div>1</div>
-                        <p>Choose a departure city.</p>
+                        <p>Sign up for a user account.</p>
                     </div>
                     <div class="works-step clearfix">
                         <div>2</div>
-                        <p>Choose an arrival city.</p>
+                        <p>Login to your user account.</p>
                     </div>
                     <div class="works-step clearfix">
                         <div>3</div>
-                        <p>Select a departure date and choose froma variety of companies.</p>
+                        <p>Select a departure and arrival city.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>4</div>
+                        <p>Select a departure date and choose from a variety of companies.</p>
                     </div>
                     
                     <a href="#" class="btn-app"><img src="pics/play-store.png" alt="App Store Button"></a>
@@ -168,17 +172,12 @@
                         <a href="#">@pandha_fako_travellers</a>
                     </div>
                 </div>
-
-
-
-
-                
                 
             </div>
             
         </section>
         
-        <section class="section-testimonials">
+        <section class="section-testimonials" id = "reviews">
             <div class="row">
                 <h2>Our customers can't live without us</h2>
             </div>
@@ -186,7 +185,7 @@
                 <div class="col span-1-of-3">
                     <blockquote>
                         Pandha is just awesome! I just got a job that leaves me no time at all, so Pandha is a life-saver. Now that I got used to it, I couldn't live without moving with ease!
-                        <cite><img src="pics/ty.jpg" alt="Customer 1 photo">Tyron Mbiachere</cite>
+                        <cite><img src="pics/ty.jpg" alt="Customer 1 photo">Tyron Mbiachare</cite>
                     </blockquote>
                 </div>
                 <div class="col span-1-of-3">
@@ -204,91 +203,6 @@ I was looking for a quick and easy ticket sales service in Bamenda. I tried a lo
             </div>
         </section>
         
-        
-        <section class="section-plans js--section-plans" id="buy">
-            <div class="row">
-                <h2>Buy a ticket</h2>
-            </div>
-
-            
-                <form method="get" action="" class="contact-form">
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                                <label for="name">Name</label>
-                            </div>
-                            <div class="col span-2-of-3">
-                                <input type="text" name="name" id="name" placeholder="Your full legal name" required>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <input type="email" name="email" id="email" placeholder="Your email" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="name">Choose a departure city</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <select name="find-us" id="find-us">
-                                <option value="Bafoussam">Bafoussam</option>
-                                <option value="Bamenda" selected>Bamenda</option>
-                                <option value="Bertoua">Bertoua</option>
-                                <option value="Buea">Buea</option>
-                                <option value="Douala">Douala</option>
-                                <option value="Ebolowa">Ebolowa</option>
-                                <option value="Garoua">Garoua</option>
-                                <option value="Maroua">Maroua</option>
-                                <option value="Ngaoundere">Ngaound&egrave;r&egrave;</option>
-                                <option value="Yaounde">Yaound&egrave;</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label for="name">Choose an arrival city</label>
-                        </div>
-                        <div class="col span-2-of-3">
-                            <select name="find-us" id="find-us">
-                                <option value="Bafoussam">Bafoussam</option>
-                                <option value="Bamenda">Bamenda</option>
-                                <option value="Bertoua">Bertoua</option>
-                                <option value="Buea" selected>Buea</option>
-                                <option value="Douala">Douala</option>
-                                <option value="Ebolowa">Ebolowa</option>
-                                <option value="Garoua">Garoua</option>
-                                <option value="Maroua">Maroua</option>
-                                <option value="Ngaoundere">Ngaound&egrave;r&egrave;</option>
-                                <option value="Yaounde">Yaound&egrave;</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                                <label for="name">Date of departure</label>
-                            </div>
-                            <div class="col span-2-of-3">
-                                <input type="date" name="date" id="date">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col span-1-of-3">
-                            <label>&nbsp;</label>
-                        </div> &nbsp;
-                        <div class="col span-2-of-3">
-                            <input type="submit" onclick="send()" value="Take me there!">
-                        </div>
-                    </div>
-                </form>
-
             <!--
             <div class="row">
                 <div class="col span-1-of-3">
@@ -433,16 +347,16 @@ I was looking for a quick and easy ticket sales service in Bamenda. I tried a lo
                 </div>
                 <div class="col span-1-of-2">
                     <ul class="social-links">
-                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/tyron.mbiachare"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/mbiachare_tyron"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://plus.google.com/109221689063053452015"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="https://www.instagram.com/tyron_mbiachare"><i class="ion-social-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <p>
-                    Copyright &copy; 2018 by Pandha. <br> All rights reserved.
+                    Copyright &copy; 2019 by Pandha. <br> All rights reserved.
                 </p>
             </div>
         </footer>
